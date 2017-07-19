@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.backgroundImg{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(3px);
+  z-index: -1;
+  height: inherit;
+  width: inherit;
+}
+
+.App {
+  text-align: center;
+}
