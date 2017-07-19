@@ -25,3 +25,41 @@ img {
 .App {
   text-align: center;
 }
+
+.randomGif{
+  height: 200px;
+  width: 200px;
+}
+
+.savedGifsContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.savedGifsFlexContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.savedGifsFlexContainer .gif {
+  height: 300px;
+  min-width: 150px;
+  width : 30%;
+  margin: 10px;
+}
+
+.savedGifContainer .gif img{
+  margin: 0 auto;
+  height: 200px;
+  min-width: 150px;
+  width: 100%;
+}
+
+.thumbs{
+  width: 200px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
