@@ -1,8 +1,5 @@
 import React, {Component} from "react";
 import axios from "axios";
-import RandomGif from './RandomGif';
-import SavedGifsList from "./SavedGifsList";
-
 
 class App extends Component {
   render() {
